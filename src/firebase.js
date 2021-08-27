@@ -1,13 +1,15 @@
-import firebase from 'firebase'
+import { firebase } from '@firebase/app'
+import '@firebase/firestore'
 
 const firebaseConfig = firebase.initializeApp({
-	apiKey: 'AIzaSyDImW0UgOVICic9rKJTV00qyOKfWSzyxyU',
-	authDomain: 'messenger-chat-84ce0.firebaseapp.com',
-	projectId: 'messenger-chat-84ce0',
-	storageBucket: 'messenger-chat-84ce0.appspot.com',
-	messagingSenderId: '1023808086042',
-	appId: '1:1023808086042:web:ed9994f5ea25204e4a31a3',
-	measurementId: 'G-J9GS0JTW8F',
+	apiKey: 'AIzaSyCTN_CDN8SO-nSHDwMJVyD5oePpF2dIAIY',
+	authDomain: 'messenger-chat-c57e7.firebaseapp.com',
+	databaseURL: 'https://messenger-chat-c57e7-default-rtdb.firebaseio.com',
+	projectId: 'messenger-chat-c57e7',
+	storageBucket: 'messenger-chat-c57e7.appspot.com',
+	messagingSenderId: '586511281062',
+	appId: '1:586511281062:web:9f61656dcba7459d067d67',
+	measurementId: 'G-RNWZBFSBBS',
 })
 
 const db = firebaseConfig.firestore()
